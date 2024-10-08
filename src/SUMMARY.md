@@ -1,3 +1,3 @@
 # Summary
-
-- [Pinout](./pinout.md)
+-[Barometer](./baro.md)
+-[Pin descrption](./pinnumber.md)
