@@ -1,6 +1,6 @@
-# Summary
--[Barometer](./baro.md)
--[Pin descrption](./pinnumber.md)
+# SUMMARY
 
-- [Pinout](./pinout.md)
-- [IMU](./IMU.md)
+- [Pinout](pinout.md)
+- [Baro](baro.md)
+- [GPS](gps.md)
+- [IMU](imu.md)

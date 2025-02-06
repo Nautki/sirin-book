@@ -21,16 +21,21 @@ Every exposed pin can be used as GPIO or as an interrupt. In addition to those t
 | 14 |  PD4 | USART2_RTS/USART2_DE
 | 15 |  PD3 | USART2_CTS/USART2_NSS
 | 16 |  PD1 | FDCAN1_TX | UART4_TX
+
+Pins 17-20 are connected to MOSFETs:
+
+| Pin | Wiring | Connected to |
+|----|-----|-----|
+| 17 | Q2- | GND |
+| 18 | Q2+ |     |
+| 19 | Q1- | GND |
+| 20 | Q1+ |     |
+
+On SirinS1-R1, the wiring was:
+
+| SirinS1 | STM32 | AF | AF | AF | AF |
+|---------|-------|----|----|----|----|
 | 17 |  PD0 | FDCAN1_RX | UART4_RX
 | 18 | PC12 | SPI3_MOSI/I2S3_SDO | USART3_CK
 | 19 | PC11 | SPI3_MISO/I2S3_SDI | USART3_RX | UART4_RX
 | 20 | PC10 | SPI3_SCK/I2S3_CK | USART3_TX | UART4_TX
-
-## Internal Pins
-
-These pins are hardwired to internal peripherals.
-
-| STM32 GPIO | Function |
-|------------|----------|
-| PC1        | MOSI     |
-|
